@@ -7,7 +7,8 @@ const connectDb = require('./utils/db')
 // lets tackle cors- hm cors ka use krte hain taki frontend/backend ko pta chale ki yah port isi ka hi chunki both have different port
 
 const corsOptions = {
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://65c50c3a3838cf2e5bdd1c55--merncrudbysaurav.netlify.app",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true
 }
